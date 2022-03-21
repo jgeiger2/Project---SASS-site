@@ -1,0 +1,117 @@
+.pre-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 10px;
+}
+
+.l-items {
+    color: #7B8490;
+}
+
+.r-items {
+    display: flex;
+}
+
+.pre-item {
+    color: #7B8490;
+    margin-left: 30px;
+
+}
+
+i {
+    margin-left: 5px;
+    color: #7B8490;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-logo {
+    width: 130px;
+}
+
+.r-side {
+    display: flex;
+}
+
+.nav-links ul{
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}  
+
+.nav-links li.active {
+    color: #547CEF;
+}
+
+.cta {
+    margin-left: 30px;
+}
+
+.herocont {
+    height: 50vh;
+    border: 1px solid;
+    display: flex;
+}
+
+.left-content>h1 {
+    font-size: 70px;
+}
+
+.left-content {
+    margin-left: 20px;
+
+}
+
+.left-content>p {
+    font-size:25px;
+}
+
+.learn-more {
+    margin-left: 20px;
+}
+
+.play-icon {
+    color: white;
+}
+
+.hero-btn {
+    height: 30;
+}
+.img-container {
+    position: relative;
+    display: flex;
+}
+
+.icon-background {
+    background-color: whitesmoke;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px;
+}
+
+.icon {
+    display: flex;
+    position: a;
+    top: 50%;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon img {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    
+    
+}
+
