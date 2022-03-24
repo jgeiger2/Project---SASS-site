@@ -20,3 +20,8 @@ li {
     padding: 0.475rem 1.15rem;
     border-radius: 1.25rem;
 }
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}

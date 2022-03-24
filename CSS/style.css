@@ -53,9 +53,8 @@ i {
 }
 
 .herocont {
-    height: 50vh;
-    border: 1px solid;
-    display: flex;
+    height: 500px;
+        display: flex;
 }
 
 .left-content>h1 {
@@ -63,12 +62,19 @@ i {
 }
 
 .left-content {
+    display: flex;
     margin-left: 20px;
-
+    align-items: center;
+    
 }
 
 .left-content>p {
     font-size:25px;
+}
+
+.btn-line-wrapper {
+    display: flex;
+    align-items: center;
 }
 
 .learn-more {
@@ -95,32 +101,57 @@ i {
     justify-content: center;
     align-items: center;
     background-color: whitesmoke;
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
     box-shadow: 0 0 5px;
+    transition: ease-in ;
     }
 
 .icon img {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
 }
 
-.icon.asana {
+.icon.google {
     position: relative;
-    top: 15%;
-    left: 10%;
+    top: 12%;
+    left: -50%;
+}
+
+.icon.paypal {
+    position: relative;
+    top:40%;
+    left: -60%;
+}
+
+.icon.gads {
+    position: relative;
+    top: 55%;
+    left: -10%;
 }
 
 .icon.atlassian {
     position: relative;
     top: 20%;
-    left: 60%;
+    left: 30%;
+}
+
+.icon.weave {
+    position: relative;
+    top: 40%;
+    left: -30%;
+}
+
+.icon.asana {
+    position: relative;
+    top: 12%;
+    left: 90%;
 }
 
 .icon.gcal {
     position: relative;
-    top: 75%;
-    left: 95%;
+    top: 65%;
+    left: 60%;
 }
 
