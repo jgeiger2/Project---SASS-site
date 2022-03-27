@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     margin: 5px 10px;
+    background: transparent;
 }
 
 .l-items {
@@ -26,6 +27,7 @@ i {
 .main-nav {
     display: flex;
     justify-content: space-between;
+    background: transparent;
 }
 
 .brand-logo {
@@ -52,6 +54,11 @@ i {
     margin-left: 30px;
 }
 
+.hero-section {
+    background: linear-gradient(-189deg, #F4F6F8 60%, white 10%, transparent 10%);
+    height: 500px;
+  }
+
 .herocont {
     height: 500px;
         display: flex;
@@ -65,7 +72,6 @@ i {
     display: flex;
     margin-left: 20px;
     align-items: center;
-    
 }
 
 .left-content>p {
@@ -155,3 +161,72 @@ i {
     left: 60%;
 }
 
+.text {
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+}
+
+.card {
+    width: 250px;
+    box-shadow: 16px 15px 15px -5px rgba(0,0,0,0.08);
+    margin-left: 30px;
+}
+
+.card a {
+    text-decoration: none;
+}
+.card span {
+    color: white;
+    background-color: #00C9A6;
+    padding: 5px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.card a h4 {
+    color: black;
+}
+
+.card a .feature-description {
+    color: #7B8A98;
+}
+.card img {
+    width: 50px;
+}
+
+.mockup-section {
+    background-color: #F8FAFE;
+}
+
+.mockup-container {
+    border: solid 1px;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    padding-right: 0;
+    padding-top: 75px;
+    height: 300px;
+    justify-content: space-between;
+}
+.left-content-mockup {
+    margin-left: 20px;
+    align-items: center;
+}
+
+.right-content-mockup {
+    width: 50%;
+}
+
+.right-content-mockup img {
+    width: 100%;
+    box-shadow: -4px -5px 25px -2px rgba(0,0,0,0.09);
+}
+
+.btn-mockup {
+    padding: 0;
+}
