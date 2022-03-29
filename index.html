@@ -202,11 +202,14 @@
             <div class="container">
                 <h2>Pricing</h2>  
                 <p>No additional costs.  Pay for what you use.</p>   
-                <div class="pricing-card">
-                    <h2>$59 <span> /mo</span></h2>
-                    <hr>
-                    <p>Start your business now. 100% <br>guaranteed money back.  No questions asked.</p>
-                    <div class="btn primary-btn  btn-line-wrapper">Get Started ></div>
+                <div class="pricing-content">
+                    <div class="pricing-card">
+                        <h2>$59 <span> /mo</span></h2>
+                        <hr>
+                        <p>Start your business now. 100% <br>guaranteed money back.  No questions asked.</p>
+                        <div class="btn primary-btn  btn-line-wrapper">Get Started ></div>
+                        <h5>No credit card required.</h5>
+                    </div>
                     <div class="feature-grid">
                         <div class="feature">
                             <img src="./assets/icons/components.svg" alt="">
@@ -229,8 +232,104 @@
                             <p>100% guaranteed money back.  No  <br>questions asked.</p>
                         </div>
                     </div>
-                </div>           
+                </div>
+            </div>           
+        </section>
+
+        <section class="hire-us">
+            <div class="container">
+                <div class="left-text">
+                    <h2>Hire Us</h2>
+                    <h5>Whatever your goal, we'll get you there</h5>
+                    <hr>
+                    <p>"I love Front! I love the ease of use, I love <br>the fact that I have total creative <br>freedom..."</p>
+                    <h3>Charlotte Moore</h3>
+                    <h5>Head of Commercials, Slack</h5>
+                    <div class="profile-photos">
+                        <img src="./assets/people/woman_one.jpg" alt="">
+                        <img src="./assets/people/man_one.jpg" alt="">
+                        <img src="./assets/people/woman_two.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="form">
+                    <h3>Fill out the form and we'll be in touch <br>as soon as possible.</h3>
+                    <form action="post">
+                        <input type="text" name="First Name" id="fname" placeholder="First Name">
+                        <input type="text" name="Last Name" id="lname" placeholder="Last Name">
+                        <br>
+                        <input type="email" name="Work Email" id="email" placeholder="Work Email">
+                        <input type="url" name="Company Website" id="website" placeholder="Company Website">
+                        <br>
+                        <select name="Budget" id="budget">
+                            <option value="budget" selected>Budget</option>
+                            <option value="0-50k">$0 to $50k</option>
+                            <option value="50-100">$50k to $100k</option>
+                        </select>
+                        <select name="Country" id="country">
+                            <option value="country"selected>Country</option>
+                            <option value="USA">USA</option>
+                            <option value="others">Others</option>
+                        </select>
+                        <br>
+                        <textarea name="Description" id="" cols="30" rows="10">
+                            Tell us more about your project, needs, and timeline.
+                        </textarea>
+                        <br>
+                        <input type="checkbox" name="agree" id="agree">
+                        <label for="agree">Yes, I'd like to receive occasional marketing emails from <br>Front. I have the right to opt out at any time. <span>View privacy <br>policy.</span></label>
+                        <br>
+                        <div class="btn">Get Started</div>
+                    </form>
+                </div>
             </div>
         </section>
+
+        <footer>
+            <div class="container">
+                <div class="col-1">
+                  <img src="./assets/project_logo/logo.svg" alt="">  
+                  <br>
+                  <i class="fas fa-location-arrow"></i>153 Williamson Plaza, Maggieberg
+                  <br>
+                  <i class="fas fa-phone-alt"></i> +1 (062) 109-9222
+                </div>
+                <div class="col-2">
+                    <h5>Company</h5>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Customers</a></li>
+                        <li><a href="#">Hire Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h5>Features</h5>
+                    <ul>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Release Notes</a></li>
+                        <li><a href="#">Integrations</a></li>
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h5>Documentation</h5>
+                    <ul>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Docs</a></li>
+                        <li><a href="#">Status</a></li>
+                        <li><a href="#">API Reference</a></li>
+                        <li><a href="#">Tech Requirements</a></li>
+                    </ul>
+                </div>
+                <div class="col-5">
+                    <h5>Resources</h5>
+                    <i class="fas fa-info-circle"></i>Help
+                    <br>
+                    <i class="fas fa-user-circle"></i>Your Account
+                </div>
+            </div>
+        </footer>
 </body>
 </html>

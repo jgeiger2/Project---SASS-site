@@ -269,8 +269,6 @@ br {
     width: 50%;
 }
 
-
-
 .dots {
     position: absolute;
     bottom: 0;
@@ -307,4 +305,61 @@ br {
 
 .feature-grid img {
     width: 50px;
+}
+
+.pricing .container {
+    text-align: center;
+}
+
+.pricing-card {
+    width: 50%;
+    text-align: left;
+    max-width: 250px;
+    margin-right: 150px;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.feature {
+    text-align: left;
+}
+
+.pricing-content {
+    display: flex;
+}
+
+.hire-us {
+    background-color: #20325B;
+}
+
+.left-text {
+    color: white;
+    width: 50%;
+}
+
+.form {
+    background-color: white;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+footer img {
+    width: 100px
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer ul {
+    margin-left: 0;
+    padding-left: 0px;
 }
