@@ -1,0 +1,214 @@
+@media screen and (max-width: 768px) {
+    
+    .hero-content {
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    } 
+
+    .hero-content h1 {
+        font-size: 30px;
+    }
+
+    .hero-content a {
+        font-size: 12px;
+    }
+
+    .btn-line-wrapper {
+        margin: auto 0;
+    }
+
+    br {
+        display: none;
+    }
+
+    .img-container {
+        height: 500px;
+    }
+
+    .gads, .gcal {
+        display: none;
+    }
+
+    .card-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .mockup-container {
+        flex-direction: column;
+    }
+
+    .left-content-mockup .btn {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .right-content-mockup {
+        width: 100%;
+    }
+
+    .right-content-mockup img {
+        width: 100%;
+    }
+
+    .circle-container {
+        flex-direction: column;
+    }
+
+    .circle-container hr {
+        display: none;
+    }
+
+    .hubspot .container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .l-hubspot-img {
+       justify-content: center;
+       margin-right: auto;
+    }
+
+    .hubspot-woman {
+        align-items: center;
+    }
+
+    .logos {
+        padding: 0 20px;
+        flex-wrap: wrap;
+    }
+
+    .pricing-content {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .pricing-card {
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .feature-grid {
+        margin: 0 20px;
+    }
+
+    .hire-us .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form {
+        width: 75%;
+    }
+
+    footer .container {
+        flex-direction: column;
+    }
+
+    .top, .middle, .bottom {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .top {
+        display: flex;
+    }
+
+    .top br {
+        display: inline;
+        margin-left: 0px;
+    }
+
+    .col-5 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    [aria-controls="navbarDropdown"] {
+        display: block;
+    }
+
+    [aria-expanded="false"] ~ ul {
+        display: none;
+    }
+
+    [aria-expanded="true"] ~ ul {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 50px;
+        width: 100%;
+        text-align: right;
+        background-color: white;
+        opacity: .88;
+    }
+
+    [aria-expanded="true"] ~ ul li a {
+        margin-right: 20px;
+        color: black;
+        text-decoration: none;
+    }
+
+    [aria-expanded="true"] ~ ul li {
+        margin-top: 10px;
+        list-style: none;
+    }
+
+    [aria-expanded="true"] ~ ul .btn {
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .icon.google {
+        left: -20%;
+    }
+
+    .icon.paypal {
+        left: -56%;
+    }
+
+    .icon.asana {
+        left: 75%;
+    }
+
+    .card {
+        margin-top: 20px;
+    }
+
+    .hubspot-woman {
+        width: 300px;
+    }
+    
+    .r-hubspot-content {
+        margin-left: 20px;
+    }
+
+    .logos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logos img {
+        margin-top: 20px;
+    }
+
+    textarea {
+        width: 150px;
+        height: 175px;
+    }
+
+    .checkbox-container {
+        width: 150px;
+    }
+
+    form .btn {
+        margin-top: 20px;
+    }
+}
